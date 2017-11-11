@@ -17,3 +17,13 @@ D:\VS\Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.c
 D:\VS\Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.csproj.CoreCompileInputs.cache
 D:\VS\Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.exe
 D:\VS\Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.pdb
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\bin\Debug\Item Wheel Generator.exe.config
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\bin\Debug\Item Wheel Generator.exe
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\bin\Debug\Item Wheel Generator.pdb
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.csprojResolveAssemblyReference.cache
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\obj\Debug\Item_Wheel_Generator.Form1.resources
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\obj\Debug\Item_Wheel_Generator.Properties.Resources.resources
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.csproj.GenerateResource.Cache
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.csproj.CoreCompileInputs.cache
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.exe
+D:\VS\MK7 Item Wheel Generator\Item Wheel Generator\obj\Debug\Item Wheel Generator.pdb
