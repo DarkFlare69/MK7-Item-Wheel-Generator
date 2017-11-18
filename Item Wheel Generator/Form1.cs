@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Item_Wheel_Generator
@@ -24,6 +17,8 @@ namespace Item_Wheel_Generator
 
         private void button2_Click(object sender, EventArgs e)
         {
+            String ItemID = comboBox1.SelectedIndex.ToString("X");
+            int button = 0;
             bool NTR = radioButton1.Checked;
             bool Gateway = radioButton2.Checked;
             bool A_Button = checkBox1.Checked;
@@ -38,61 +33,55 @@ namespace Item_Wheel_Generator
             bool Down_Button = checkBox10.Checked;
             bool Left_Button = checkBox11.Checked;
             bool Right_Button = checkBox12.Checked;
-
-            int button = 0;
-
-            if (A_Button == true)
+            if (A_Button)
             {
                 button += 1;
             }
-            if (B_Button == true)
+            if (B_Button)
             {
                 button += 2;
             }
-            if (X_Button == true)
+            if (X_Button)
             {
                 button += 0x400;
             }
-            if (Y_Button == true)
+            if (Y_Button)
             {
                 button += 0x800;
             }
-            if (L_Button == true)
+            if (L_Button)
             {
                 button += 0x200;
             }
-            if (R_Button == true)
+            if (R_Button)
             {
                 button += 0x100;
             }
-            if (Select_Button == true)
+            if (Select_Button)
             {
                 button += 4;
             }
-            if (Start_Button == true)
+            if (Start_Button)
             {
                 button += 8;
             }
-            if (Up_Button == true)
+            if (Up_Button)
             {
                 button += 0x40;
             }
-            if (Down_Button == true)
+            if (Down_Button)
             {
                 button += 0x80;
             }
-            if (Left_Button == true)
+            if (Left_Button)
             {
-                button += 20;
+                button += 0x20;
             }
-            if (Right_Button == true)
+            if (Right_Button)
             {
                 button += 0x10;
             }
-
-            int comboIndex = comboBox1.SelectedIndex;
-            String ItemID = comboIndex.ToString("X");
-            if (comboIndex != -1)
+            if (comboBox1.SelectedIndex != -1)
             {
                 if (NTR)
                 {
@@ -109,7 +98,7 @@ namespace Item_Wheel_Generator
                     {
                         textBox1.Text = "";
                     }
-                    textBox1.Text += "DD000000 00000" + button.ToString("X").PadLeft(3, '0') + System.Environment.NewLine +
+                    textBox1.Text += "DD000000 " + button.ToString("X").PadLeft(8, '0') + System.Environment.NewLine +
                     "D3000000 14000074" + System.Environment.NewLine +
                     "B0000000 00000000" + System.Environment.NewLine +
                     "DC000000 FFFFE4A4" + System.Environment.NewLine +
@@ -119,7 +108,7 @@ namespace Item_Wheel_Generator
                     "B00027AC 00000000" + System.Environment.NewLine +
                     "0000003C FFFFFFFF" + System.Environment.NewLine +
                     "000000A8 00000203" + System.Environment.NewLine +
-                    "000000C8 00000" + ItemID.PadLeft(3, '0') + System.Environment.NewLine +
+                    "000000C8 " + ItemID.PadLeft(8, '0') + System.Environment.NewLine +
                     "000000D8 3F800000" + System.Environment.NewLine +
                     "D2000000 00000000" + System.Environment.NewLine;
                 }
