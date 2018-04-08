@@ -8,3 +8,6 @@ Run the .exe and input your information. Then, copy the code to your Gateway's .
 DarkFlare - Program and item hack
 
 RyDog - Support
+
+# Download
+Latest: https://github.com/DarkFlare69/MK7-Item-Wheel-Generator/raw/master/Item%20Wheel%20Generator/bin/Debug/Item%20Wheel%20Generator.exe
